@@ -1,27 +1,42 @@
+<!DOCTYPE html>
 <html lang="pt-br">
--- Configurações da Página -- 
+
 <head>
-    <title>CSS</title>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- CSS -->
     <link rel="stylesheet" href="./css/style.css">
-    -- Ícone na Guia --   
-    <link rel="shortcut icon" href="https://cutt.ly/TnHri9l"
+
+    <title>Formulario</title>
 </head>
--- Conteudo Página  --
+
 <body>
-    <heard id="cabecalho">
-        <h1>Meu site</h1>
-    </heard>
+    <div="form">
+        <form action="">
+            <h2 class="title">Cadastrar</h2>
 
-    <main id="conteudo">
-        <h2>Conteúdo principal</h2>
-    </main>
+            <label for="nome usuario"> Nome</label>
+            <div class="input">
+                <i class="fas fa-user-circle"></i>
+                <input id="nome usuario" name="nome usuario" placeholder="nome usuario" type="text" </div>
 
-    <footer id="rodape">
-        <h3>Outro conteúdo</h3>
-        <a href="htpps://www.youtube.com" target="_blank">
-        <img class="icones" src="https://bit.ly/35n1pbY" alt="site do yotube"></a>
-        <img class="icones" src="https://bit.ly/3q06qks" alt="site do instagram">
-    </footer>
+                <label for="email"> Email</label>
+                <div class="input">
+                    <i class="far fa-envelope"></i>
+                    <input id="email" name="email" placeholder="email" type="text" </div>
+
+                    <label for="senha"> Senha</label>
+                    <div class="input">
+                        <i class="fas fa-lock"></i>
+                        <input id="senha" name="senha" placeholder="senha" type="senha" </div>
+
+                        <div id="btn">
+                            <button type="submit">Cadastrar</button>
+                        </div>
+        </form>
+        </div>
 </body>
-<html>
+
+</html>
